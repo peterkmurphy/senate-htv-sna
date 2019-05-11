@@ -1,0 +1,26 @@
+graph G  {
+    graph [label = "ACT"];
+    GREENS [ pos = "0,0" ];
+    LIB -- UAP;
+    LIB -- SA;
+    LIB -- C;
+    LIB -- ALP;
+    LIB -- GREENS;
+    GREENS -- ALP;
+    GREENS -- C;
+    GREENS -- SA;
+    GREENS -- UAP;
+    GREENS -- LIB;
+    FACNP -- LIB;
+    FACNP -- UAP;
+    FACNP -- SA;
+    FACNP -- ALP;
+    UAP -- LIB;
+    UAP -- C;
+    UAP -- SA;
+    UAP -- ALP;
+    ALP -- GREENS;
+    ALP -- C;
+    ALP -- UAP;
+    ALP -- LIB;
+}

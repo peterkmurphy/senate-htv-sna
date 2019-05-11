@@ -1,4 +1,6 @@
 graph G  {
+    graph [label = "Queensland"];
+    GREENS [ pos = "0,0" ];    
     RUAP -- PHON;
     RUAP -- UAP;
     RUAP -- LNP;

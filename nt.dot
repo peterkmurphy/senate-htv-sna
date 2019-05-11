@@ -1,4 +1,6 @@
 graph G  {
+    graph [label = "NT"];
+    GREENS [ pos = "0,0" ];
     UAP -- LIB;
     UAP -- CEC;
     UAP -- ALP;
