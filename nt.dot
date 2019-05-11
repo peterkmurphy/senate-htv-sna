@@ -1,0 +1,27 @@
+graph G  {
+    UAP -- LIB;
+    UAP -- CEC;
+    UAP -- ALP;
+    UAP -- D
+    UAP -- RUAP;
+    ALP -- GREENS;
+    ALP -- HEMP;
+    ALP -- D;
+    ALP -- UAP;
+    ALP -- LIB;
+    LIB -- UAP;
+    LIB -- D;
+    LIB -- HEMP;
+    LIB -- ALP;
+    LIB -- GREENS;
+    GREENS -- HEMP;
+    GREENS -- ALP;
+    GREENS -- D;
+    GREENS -- UAP;
+    GREENS -- LIB;
+    FACNP -- RUAP;
+    FACNP -- LIB;
+    FACNP -- CEC;
+    FACNP -- UAP;
+    FACNP -- ALP;
+}
